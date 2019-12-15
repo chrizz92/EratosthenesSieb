@@ -17,7 +17,8 @@ namespace EratosthenesSieb.ConsoleApp
             {
                 Console.Write("Bis zu welcher Zahl wollen Sie Primzahlen ausgeben: ");
                 upperMax = Convert.ToInt32(Console.ReadLine());
-            } while (upperMax < 2);
+            } 
+            while (upperMax < 2);
             
             bool[] isNotPrime = new bool[upperMax + 1];
 
